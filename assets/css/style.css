@@ -1,0 +1,261 @@
+*{
+	font-family: Verdana, Arial, Tahoma, sans-serif;
+}
+nav{
+    background-color: #03a8f5;
+	border-radius: 30px 0 30px 0;
+    margin:20px 10px 20px 10px;
+	display: flex;
+    flex-direction: row ;
+	width: 100%;
+}
+#link-topo{
+	border-radius: 50%;
+	text-decoration: none;
+	color: azure;
+	background-color: #03a8f5;
+	padding: 10px;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	box-shadow: 3px 3px 10px #333333;
+}
+nav ul li a {
+background:transparent;
+margin: 0 20px 0 20px;
+font-family:cursive;
+font-size: medium;
+text-decoration:none ;
+font-size: 40px;
+font-weight: bold;
+font-style: italic;
+color:black ;
+}
+nav ul li a:hover{
+color: aliceblue;
+text-decoration: line-through;
+
+}
+nav a image{
+border-radius: 50px;
+
+}
+
+nav ul li{
+	display: inline;
+}
+body {
+background: url(../imagens/nervous-dog-spinning.gif) no-repeat right top; rgb(0,168,249);
+background: linear-gradient(180deg, rgba(0,168,249,1) 0%, rgb(124, 223, 253) 44%, rgba(255,255,255,1) 100%);
+}
+
+h1{
+   font-size: 65px;
+	text-align: center;
+    text-transform: uppercase;
+	text-shadow: 3px 4px 3px #333333;
+	font-family: Arial;
+	color:#000000;
+	font-size: 65px;
+	
+	
+}
+h2{
+	font-size:40px;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+	font-size: 40px;
+	border-radius: 50px;
+	text-indent: 20px;
+	
+}
+.fundo{
+	background-color: #02577e;
+	border-radius: 30px 0 30px 0;
+	width: 111%;
+}	
+.fundo1{
+	background-color: #02577e;
+    display: block;
+	border-radius: 30px 0 30px 0;
+    width: 111%;
+}	
+.fundo2{
+	background-color: #02577e;
+	border-radius: 30px 0 30px 0;
+	width: 111%;
+}
+
+.fundo3{
+	background-color: #02577e;
+	border-radius: 30px 0 30px 0;
+	width: 111%;
+}
+.fundo4{
+	background-color: #02577e;
+	border-radius: 30px 0 30px 0;
+	width: 100%;
+	text-align: center;
+}
+
+
+.member h3{
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+p{
+	color: #000000;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+.member {
+	width: 300px;
+	height:500px;
+	margin-bottom: 20px;
+	background-color: #02577e;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 50px;
+}
+.member img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	margin-bottom: 20px;
+	
+}
+
+.member p {
+	margin-bottom: 0;
+	font-size: 18px;
+	text-align: center;
+}
+.sobre_nos{
+	font-size: 20px;
+}
+.loja{
+	font-size: 20px;
+}
+.nos{ 
+	font-size: 20px;
+}
+.promo{ 
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 30px;
+}
+@media screen and (max-width:390px){
+	
+}
+form{
+	display:flex ;
+	width: 50%;
+	border-radius: 50px;
+	border: 10px solid #02577e;
+	padding: 20px;
+	flex-direction: column;
+	
+	}
+    input[type="text"],
+    input[type="E-mail"],
+    input[type="tel"],
+    textarea{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 10px solid #02577e;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	}
+	input[type="submit"]{
+		background-color: #03a8f5;
+		color: aliceblue;
+		padding: 12px 20px;
+		border-radius: 100px;
+		cursor: pointer;
+	}
+
+
+	input[type="submit"]:hover{
+	background-color: #02577e
+}
+
+.enviar{
+	margin: 20px;
+}
+.topo{
+	display: flex;
+}
+.late{
+	margin:0 100px;
+}
+.pop{
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.produtos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-evenly;
+	
+}
+.produto{
+    background-color: #008ed0;;
+	border-radius: 20px;
+	box-shadow: #333333;
+    margin: 30px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+	font-size: medium;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bolder;
+	}
+	.img{
+		width: 100%;
+	}
+	.preço{
+       margin-bottom: 50%;
+	}
+	.texto{
+		font-size: 20px;
+		text-align: center;
+		text-indent: 1em;
+		width: 90%;
+	}
+	.texto1{
+		font-size: 20px;
+		text-align: center;
+		text-indent: 1em;
+		width: 90%;
+	}
+	.adocao{
+		display:block;
+		background-color: #03a8f5;
+		color: aliceblue;
+		padding: 12px 20px;
+		border-radius: 100px;
+		cursor: pointer;
+		
+	}
+    .adocao:hover{
+  	    background-color: #86d7fd
+}
+.adote{
+	width: 30%;
+	height: 100%;
+	display: flex;
+
+}
+
+
+
